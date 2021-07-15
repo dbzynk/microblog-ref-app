@@ -1,0 +1,1 @@
+../../../../../../Protobuf-C++/src/google/protobuf/stubs/stringpiece.h

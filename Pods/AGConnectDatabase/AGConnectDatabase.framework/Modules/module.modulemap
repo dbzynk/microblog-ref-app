@@ -1,0 +1,6 @@
+framework module AGConnectDatabase {
+  umbrella header "AGConnectDatabase.h"
+
+  export *
+  module * { export * }
+}

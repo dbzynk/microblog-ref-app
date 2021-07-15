@@ -1,0 +1,6 @@
+module Pods_HiPlace {
+  umbrella header "Pods-HiPlace-umbrella.h"
+
+  export *
+  module * { export * }
+}

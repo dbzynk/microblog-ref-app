@@ -1,0 +1,6 @@
+framework module AGConnectFunction {
+  umbrella header "AGConnectFunction.h"
+
+  export *
+  module * { export * }
+}

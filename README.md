@@ -8,7 +8,6 @@
  * [Supported Environments](#supported-environments)
  * [Installation](#installation)
  * [Screenshots](#screenshots)
- * [License](#license)
  
 </br>
 
@@ -22,7 +21,7 @@ HiPlace is a Twitter like social media app that users can share their moments, f
 * When user presses the profile photo of the post's owner on the Home Tab or Search Tab, profile page of the user opens and you can follow/unfollow the person or send a direct message to the user.
 *  On the Messages Tab, you can see and reply your conversations. With direct messaging, you can send messages to other users to have a private conversation.
 </br>
-This project is developed by using **SwiftUI 2.0**.
+This project is developed by using <b>SwiftUI 2.0</b>.
 </br>
 
 <table width=1300>
@@ -77,13 +76,19 @@ This project is developed by using **SwiftUI 2.0**.
 * If you don't have a project and app, check <a href="https://developer.huawei.com/consumer/en/doc/distribution/app/agc-create_app" target="_blank">this document</a> to learn how to create.
 * Go to <b>My Projects</b> and select your project that you were created. And click <b>Project Settings</b> then go to <b>Manage APIs</b> page to nable necessary SDKs.
 * For this project you need to set enable Auth Service, Push Kit and HUAWEI Analytics.
-* Now your app can use the enabled services APIs but also, you need to enable following services for your project as well:
--- Auth Service
--- CloudDB
--- Cloud Functions
--- Push
--- Analytics
-* For CloudDB Object Types, you can have a look at the following path HiPlace/Utils/CloudDbHelpers/ObjectTypes
+* Now your app can use the enabled services APIs but also, you need to enable following services for your project as well: 
+
+  -- Auth Service
+
+  -- CloudDB
+
+  -- Cloud Functions
+
+  -- Push
+
+  -- Analytics
+
+* For CloudDB Object Types, you can have a look at the following path: HiPlace/Utils/CloudDbHelpers/ObjectTypes
 * Then return to <b>Project Settings</b> page and download <b>agconnect-services.plist</b> file.
 * Move the configuration file into your project, below Info.plist file.
 
@@ -103,7 +108,7 @@ To integrate HMS Services, you must complete the following preparations:
 *   Create the Podfile, and add necessary framework(s).
 </br>
 Edit the Podfile.
-Add the following **pods** to your pod file:
+Add the following <b>pods</b> to your pod file:
 </br>
 
     <b> pod 'AGConnectCore'
